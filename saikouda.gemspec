@@ -13,6 +13,12 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/hiramoto-kensuke/Raise-a-fist"
   spec.license       = "MIT"
 
+  # spec.metadata["allowed_push_host"] = "https://rubygems.org/profiles/sexyhealthykenty"
+  #
+  # spec.metadata["homepage_uri"] = spec.homepage
+  # spec.metadata["source_code_uri"] = "https://github.com/hiramoto-kensuke/Raise-a-fist"
+  # spec.metadata["changelog_uri"] = "https://github.com/hiramoto-kensuke/Raise-a-fist"
+
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
